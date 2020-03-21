@@ -8,6 +8,7 @@
     background-color: #f5f8fa;
     width: 100%;
     position:fixed;
+    z-index: 100
 }
 
 .header-bottom {
@@ -175,8 +176,12 @@ h2 {
     font-size: 30px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
-    padding-right: 11%;
     color: #33475b;
+}
+
+.powerful h2 {
+
+    padding-right: 11%;
 }
 
 .blocco-paragrafo p {
@@ -194,7 +199,11 @@ h2 {
     padding: 4%;
     font-size: 20px;
     color: #33475b;
-
+    width: 32%;
+    background-color: white;
+    float: left;
+    margin-top: 25px;
+    margin-bottom: 10%
 }
 
 #hubspot-crm {
@@ -202,10 +211,8 @@ h2 {
     background-color: white;
     float: left;
     padding: 31px 50px 103px 50px;
-    /* position: relative; */
     font-family: 'Open Sans', sans-serif;
     margin-top: 10%;
-
 }
 
 .fa-dot-circle-o {
@@ -226,36 +233,34 @@ h4 {
     font-size: 13px;
 }
 
-.popular {
+.pf {
     text-transform: uppercase;
     padding-top: 35px;
     font-size: 14px;
     font-weight: 600;
+    padding-bottom: 20px;
 }
 
-/* .popular::after {
+.pf-1 {
+    position: relative;
+}
+
+.pf-1::after {
     position: absolute;
     content: "";
     height: 2px;
     background-color: #242424;
-    width: 67%;
+    width: 74%;
     margin-left: 15px;
-    top: 278px;
+    top: 44px;
     opacity: 0.1;
-} */
+}
 
 .elenco {
     display: inline-block;
-    width: 60%;
+    width: 54%;
 }
 
-.blocco-verticale {
-    width: 32%;
-    height: 400px;
-    background-color: white;
-    float: left;
-    margin-top: 25px;
-}
 
 .fa-check-circle {
     padding-right: 9px;
@@ -264,20 +269,21 @@ h4 {
 
 .elenco-orizzontale li {
     display: inline-block;
-    margin-top: 20px;
-    margin-right: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
     margin-left: 5px;
     text-decoration: none;
+    font-size: 13px;
 }
 
-.btn-getstarted {
+.btn-freecrm {
     display:inline-block;
-    width:37%;
+    width:43%;
     text-align: center;
     background-color: #ff7a59;
 }
 
-.btn-getstarted a{
+.btn-freecrm a{
     color: white;
     text-decoration: none;
 }
@@ -292,12 +298,104 @@ h3 {
     margin-left: 5px;
 }
 
+#primo-blocco {
+    padding-top: 47px;
+}
+
 .blocco-verticale p {
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     padding-top: 10%;
+    padding-bottom: 10%;
     line-height: 25px;
     color: #33475b;
-    position:
-    
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.elenco-verticale {
+    margin-bottom: 10%;
+}
+
+.elenco-verticale li {
+    font-size: 16px;
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+
+.btn-getstarted, .btn-getstarted a {
+    width: 100%;
+    background-color: #ff7a59;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#section4 {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+}
+
+.superiore-verde {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 6% 18%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.riga {
+    height: 200px;
+    float: left;
+    width: 100%;
+}
+
+.riga-inferiore {
+    background-color: green;
+}
+
+#titolo-verdeacqua {
+    font-size: 30px;
+}
+
+.superiore-verde p {
+    font-size: 17px;
+    line-height: 26px;;
+    padding-bottom:4%;
+    padding-top: 4%;
+}
+
+.quadrato {
+    float: left;
+    width: 25%;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    line-height: 50px;
+    padding-top: 20px;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.numero {
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+}
+
+#piu {
+
+}
+
+.numero::after {
+    content: '+';
+    position: absolute;
+    font-size: 25px;
+}
+
+#no-bordo {
+    border-right: none;
+    position: none;
 }
