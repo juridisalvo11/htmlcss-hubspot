@@ -70,24 +70,25 @@
 
 .btn {
     padding: 12px 30px;
-    background-color: white;
+    background-color:#ff7a59;
     border-radius: 3px;
-    border: 1px solid #ff7a59;
-    margin-left: 8px;
-    color: #ff7a59;
     text-decoration: none;
     font-weight: 700;
+    color: white;
+}
+
+.btn-login {
+    background-color: white;
+    color: #ff7a59;
+    border: 1px solid #ff7a59;
 }
 
 .btn-orange {
-    background-color: #ff7a59;
     padding:10px;
     margin-right: 5%;
-    color: white;
-    font-weight: 500;
     font-size: 14px;
+    margin-left:8px
 }
-
 
 .header-bottom-left {
     width: 40%;
@@ -144,12 +145,6 @@ h1 {
     font-size: 20px;
     margin-top: 5%;
     margin-bottom: 10%;
-}
-
-.btn-hubspot {
-    background-color: #ff7a59;
-    color: white;
-    font-weight: 700;
 }
 
 .blocco-sinistro div:last-child {
@@ -276,22 +271,19 @@ h4 {
     font-size: 13px;
 }
 
-.btn-freecrm {
-    display:inline-block;
-    width:43%;
-    text-align: center;
-    background-color: #ff7a59;
+#box-freecrm {
+    display: inline-block;
+    padding-left: 30px;
 }
 
-.btn-freecrm a{
-    color: white;
-    text-decoration: none;
+.btn-freecrm {
+    padding: 15px 66px;
+    text-align: center;
 }
 
 .scale:hover {
     transform: scale(1.01);
 }
-
 
 h3 {
     display:inline-block;
@@ -320,16 +312,6 @@ h3 {
     font-size: 16px;
     padding-bottom: 10px;
     list-style-type: none;
-}
-
-.btn-getstarted, .btn-getstarted a {
-    width: 100%;
-    background-color: #ff7a59;
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 600;
-    font-family: 'Open Sans', sans-serif;
 }
 
 #section4 {
@@ -365,10 +347,6 @@ h3 {
     line-height: 26px;;
     padding-bottom:4%;
     padding-top: 4%;
-}
-
-.lower-live {
-
 }
 
 .square {
@@ -408,47 +386,79 @@ h3 {
     border-bottom: 0;
 }
 
-.section5 {
+#section5 {
     width: 100%;
-    height: 800px;
-    color: green;
+    background-color: #fff;
+    margin-bottom: 10%;
 }
 
 .higher-block {
-    height: 300px;
-
+    padding-bottom: 35%;
+    padding-top: 8%;
+    font-family: 'Open Sans', sans-serif;
 }
-
-.lower-block {
-    height: 100px;
-}
-
 .customers {
     width: 40%;
-    height: 400px;
-    background-color: blue;
     float: left;
+    padding-right: 10%;
+}
+
+.customers p:first-child {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.customers p:last-child {
+    font-size: 20px;
+    line-height: 29px;
 }
 
 .logos {
     width: 60%;
-    height: 400px;
-    background-color: brown;
     float: left;
+}
+
+.list ul {
+    display: inline-block;
+    width: 22%;
+    margin-left: 15px;
+    list-style-type: none;
+}
+
+.list ul img:only-child {
+    width: 80%;
+}
+
+.lower-list {
+    margin-top: 50px;
 }
 
 .start-growing {
     width: 60%;
-    height: 400px;
-    background-color: yellow;
     float: left;
+    font-family: 'Open Sans', sans-serif;
+    padding-right: 19%;
+}
+
+.start-growing p:first-child {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.start-growing p:nth-child(2) {
+    line-height: 30px;
+    padding: 10% 0;
+}
+
+.start-growing p:last-child {
+    font-size: 13px;
+    padding-top: 10%;
 }
 
 .box-imgwoman {
     width: 40%;
-    height: 400px;
     float: left;
-    padding-left: 10%;
+    padding-left: 5%;
 }
 
 .img-woman {
