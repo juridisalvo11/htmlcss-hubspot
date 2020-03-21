@@ -468,3 +468,76 @@ h3 {
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+footer {
+    height: 800px;
+    width: 100%;
+    background-color: #33475b;
+
+    padding-top:10%;
+}
+
+.block {
+    height: 300px;
+    width: 25%;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.list {
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+
+}
+
+.block-list li {
+    list-style-type: none;
+}
+
+.block-list a {
+     line-height: 40px;
+     list-style-type: none;
+     font-size: 15px;
+     font-weight: 600;
+     text-transform: capitalize;
+     color: #cbd6e2;
+     text-decoration: none;
+ }
+
+ #white {
+     color: #fff;
+     margin-left: 7px;
+     cursor: pointer;
+ }
+
+.social ul {
+    float: right;
+    padding-top: 5%;
+    padding-right: 10%;
+    font-size: 25px;
+}
+
+#empty-block {
+    width: 74%;
+    height: 40px;
+    float: right;
+    background-color: red;
+
+
+}
+
+.social li {
+    display: inline-block;
+}
+
+
+.btn-support {
+     color: #33475b;
+    font-weight: 400;
+    float: right;
+    width: 19%;
+    font-size: 14px;
+    background-color: #fff;
+    margin-right: 6%;
+ }
